@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".list_data"
+    android:orientation="vertical"
+    android:background="#F1EDE3">
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/recyclerview"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:drawableLeft="@drawable/ic_add_circle_outline_black_24dp"
+            android:text="INPUT DATA"
+            android:textSize="22dp"
+            android:textColor="#FF77A1"
+            android:background="#F1EDE3"
+            android:layout_alignParentBottom="true"
+            android:layout_alignParentRight="true"
+            android:padding="50dp"/>
+    </RelativeLayout>
+</LinearLayout>

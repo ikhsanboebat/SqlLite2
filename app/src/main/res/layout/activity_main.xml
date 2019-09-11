@@ -5,7 +5,8 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     tools:context=".MainActivity"
-    android:orientation="vertical">
+    android:orientation="vertical"
+    android:background="#F1EDE3">
 
     <ImageView
         android:layout_marginTop="100dp"
@@ -15,6 +16,8 @@
         android:layout_gravity="center_horizontal"/>
 
     <Button
+        android:id="@+id/Lihat_Data"
+        android:onClick="onClick1"
         android:layout_marginTop="50dp"
         android:layout_width="210dp"
         android:layout_height="wrap_content"
@@ -26,7 +29,9 @@
         android:layout_gravity="center_horizontal"/>
 
     <Button
+        android:id="@+id/Input_Data"
         android:layout_marginTop="20dp"
+        android:onClick="onClick2"
         android:layout_width="210dp"
         android:layout_height="wrap_content"
         android:drawableLeft="@drawable/ic_add_box_black_24dp"
@@ -37,6 +42,7 @@
         android:layout_gravity="center_horizontal" />
 
     <Button
+        android:id="@+id/Informasi"
         android:layout_marginTop="20dp"
         android:layout_width="210dp"
         android:layout_height="wrap_content"

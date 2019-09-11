@@ -1,0 +1,118 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".input_data"
+    android:orientation="vertical"
+    android:background="#F1EDE3">
+
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:id="@+id/tv1"
+            android:layout_marginLeft="20dp"
+            android:layout_marginTop="20dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Nomor"
+            android:textSize="17dp" />
+
+        <EditText
+            android:id="@+id/et1"
+            android:layout_marginLeft="20dp"
+            android:layout_width="350dp"
+            android:textSize="10dp"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/tv1"
+            android:drawableLeft="@drawable/ic_create_black_24dp"/>
+
+        <TextView
+            android:id="@+id/tv2"
+            android:layout_below="@+id/et1"
+            android:layout_marginLeft="20dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Nama"
+            android:textSize="17dp" />
+
+        <EditText
+            android:id="@+id/et2"
+            android:layout_below="@+id/tv2"
+            android:layout_marginLeft="20dp"
+            android:layout_width="350dp"
+            android:textSize="10dp"
+            android:layout_height="wrap_content"
+            android:drawableLeft="@drawable/ic_group_black_24dp"/>
+
+        <TextView
+            android:id="@+id/tv3"
+            android:layout_below="@+id/et2"
+            android:layout_marginLeft="20dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Tanggal Lahir"
+            android:textSize="17dp" />
+
+        <EditText
+            android:id="@+id/et3"
+            android:layout_below="@+id/tv3"
+            android:layout_marginLeft="20dp"
+            android:layout_width="350dp"
+            android:textSize="10dp"
+            android:layout_height="wrap_content"
+            android:drawableLeft="@drawable/ic_date_range_black_24dp"/>
+
+        <TextView
+            android:id="@+id/tv4"
+            android:layout_below="@+id/et3"
+            android:layout_marginLeft="20dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Jenis Kelamin"
+            android:textSize="17dp" />
+
+        <EditText
+            android:id="@+id/et4"
+            android:textSize="10dp"
+            android:layout_below="@+id/tv4"
+            android:layout_marginLeft="20dp"
+            android:layout_width="350dp"
+            android:layout_height="wrap_content"
+            android:drawableLeft="@drawable/ic_person_black_24dp"/>
+
+        <TextView
+            android:id="@+id/tv5"
+            android:layout_below="@+id/et4"
+            android:layout_marginLeft="20dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Alamat"
+            android:textSize="17dp" />
+
+        <EditText
+            android:id="@+id/et5"
+            android:textSize="10dp"
+            android:layout_below="@+id/tv5"
+            android:layout_marginLeft="20dp"
+            android:layout_width="350dp"
+            android:layout_height="wrap_content"
+            android:drawableLeft="@drawable/ic_place_black_24dp"/>
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:drawableLeft="@drawable/ic_save_black_24dp"
+            android:text="SIMPAN"
+            android:textColor="#FF77A1"
+            android:background="#F1EDE3"
+            android:textSize="22dp"
+            android:layout_alignParentBottom="true"
+            android:layout_alignParentRight="true"
+            android:padding="50dp"/>
+
+    </RelativeLayout>
+</LinearLayout>
