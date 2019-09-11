@@ -1,18 +1,50 @@
 <?xml version="1.0" encoding="utf-8"?>
-<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".MainActivity">
+    tools:context=".MainActivity"
+    android:orientation="vertical">
 
-    <TextView
-        android:layout_width="wrap_content"
+    <ImageView
+        android:layout_marginTop="100dp"
+        android:layout_width="230dp"
+        android:layout_height="230dp"
+        android:src="@drawable/student1"
+        android:layout_gravity="center_horizontal"/>
+
+    <Button
+        android:layout_marginTop="50dp"
+        android:layout_width="210dp"
         android:layout_height="wrap_content"
-        android:text="Hello World!"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintLeft_toLeftOf="parent"
-        app:layout_constraintRight_toRightOf="parent"
-        app:layout_constraintTop_toTopOf="parent" />
+        android:drawableLeft="@drawable/ic_archive_black_24dp"
+        android:text="     Lihat Data"
+        android:textSize="20dp"
+        android:background="@drawable/stylebutton1"
+        android:textColor="#fff"
+        android:layout_gravity="center_horizontal"/>
 
-</androidx.constraintlayout.widget.ConstraintLayout>
+    <Button
+        android:layout_marginTop="20dp"
+        android:layout_width="210dp"
+        android:layout_height="wrap_content"
+        android:drawableLeft="@drawable/ic_add_box_black_24dp"
+        android:text="     Input Data"
+        android:textSize="20dp"
+        android:background="@drawable/stylebutton2"
+        android:textColor="#fff"
+        android:layout_gravity="center_horizontal" />
+
+    <Button
+        android:layout_marginTop="20dp"
+        android:layout_width="210dp"
+        android:layout_height="wrap_content"
+        android:drawableLeft="@drawable/ic_info_black_24dp"
+        android:text="   Informasi"
+        android:textSize="20dp"
+        android:background="@drawable/stylebutton3"
+        android:textColor="#fff"
+        android:layout_gravity="center_horizontal"/>
+
+</LinearLayout>
